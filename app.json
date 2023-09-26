@@ -1,10 +1,19 @@
 {
   "expo": {
     "scheme": "acme",
+    "orientation": "landscape",
     "web": {
       "bundler": "metro"
     },
     "name": "new-app",
-    "slug": "new-app"
+    "slug": "new-app",
+    "extra": {
+      "eas": {
+        "projectId": "67192d57-aa1e-40ef-b68a-3eb7450e0e9c"
+      }
+    },
+    "android": {
+      "package": "com.jim2001.newapp"
+    }
   }
 }
